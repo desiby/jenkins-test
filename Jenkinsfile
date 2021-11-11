@@ -1,11 +1,11 @@
 node{
-    stage ('build'){
+    stage('build'){
         sh 'echo "building..."'
     }
-    stage ('test'){
+    stage('test'){
         sh 'echo "testing..."'
     }
-    stage ('deploy'){
-        sh 'echo "deploying..."'
+    stage('deploy'){
+        sh 'echo "deployed..."'
     }
 }
