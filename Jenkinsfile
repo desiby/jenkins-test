@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy 
 node{
     stage('build'){
         sh 'echo "building..."'
@@ -6,6 +7,6 @@ node{
         sh 'echo "testing..."'
     }
     stage('deploy'){
-        sh 'echo "deployed..."'
+        sh 'echo "has deployed..."'
     }
 }
