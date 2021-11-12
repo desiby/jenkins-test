@@ -7,6 +7,6 @@ node{
         sh 'echo "testing..."'
     }
     stage('deploy'){
-        sh 'echo "deployed yee haw!!!"'
+        sh 'echo "deployed yee haw works!!!"'
     }
 }
